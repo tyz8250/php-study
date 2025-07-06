@@ -33,3 +33,20 @@ echo checkNumber(5) . PHP_EOL; // Output: "5 is a positive number."
 echo checkNumber(-2) . PHP_EOL; // Output: "-2 is a negative number."
 echo checkNumber(0) . PHP_EOL; // Output: "The number is zero."
 //PHP_EOL is equivalent to //n
+
+//String
+function greet(string $name) : string {
+    return "Hello, " . $name . PHP_EOL;
+}
+//Example
+echo greet("Alice");
+
+//strlen():文字列の長さを返す
+$string = "Hello, World!";
+$length =strlen($string);
+echo $length . PHP_EOL;
+
+//substr():指定した開始位置と長さに基づいて文字列の部分文字列を返す
+$string1 = "Hello, World!";
+$substring = substr($string1, 7, 5);
+echo $substring . PHP_EOL; 

@@ -1,6 +1,5 @@
-//phpの変数は$から始まる
-
 <?php
+//phpの変数は$から始まる
 $variable1 = "Hello";
 print($variable1);
 
